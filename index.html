@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" class="text-[62.5%] max-lg:text-[50%] max-[250px]:text-[30%]">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="/output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>
+
+</head>
+<body class="w-100vw bg-pWhite scroll-smooth">
+  <main class="p-8 text-Grayishblue">
+
+    <header class="flex justify-between py-8">
+      <div class="text-3xl font-bold text-Verydarkblue">
+        Notifications
+        <span class="bg-pBlue text-white px-3 rounded-md shadow" id="notification-num">3</span>
+      </div>
+
+      <div class="text-2xl text-Grayishblue" id="btn-MarkRead"> Mark all as read</div>
+    </header>
+
+    <!-- the notification sectiion -->
+    <section class="flex flex-col gap-4">
+      
+      <div class="flex items-center p-5 gap-5 unread"> 
+        <img src="/assets/images/avatar-mark-webber.webp" alt="" class="w-20 h-20">
+        <span class="flex flex-col">
+          <div class="flex items-center gap-3 text-2xl text-Grayishblue max-sm:block">
+           <span class="text-Verydarkblue font-bold whitespace-nowrap">Mark Webber</span>
+           reacted to your recent post
+           <strong class="text-Darkgrayishblue"> My first tournament today!</strong>
+           <div class="w-4 h-4 bg-pRed rounded-full pop">&nbsp;</div>
+          </div>
+      <div class="text-2xl">
+          <p class="text-grayishBlue3">1m ago</p>
+      </div>
+  </span>
+  </div>
+
+      <div class="flex items-center p-5 gap-5 unread">
+        <img src="/assets/images/avatar-angela-gray.webp" alt="" class="w-20 h-20">
+        <span class="flex flex-col">
+          <div class="flex items-center gap-3 text-2xl text-Grayishblue max-sm:block">
+            <span class="text-Verydarkblue font-bold whitespace-nowrap">Angela Gray</span>
+            followed you
+          <div  class="w-4 h-4 bg-pRed rounded-full pop">&nbsp;</div>
+          </div>
+          <div class="text-2xl">
+            <p class="text-grayishBlue3">5m ago</p>
+          </div>
+        </span>
+      </div>
+
+      <div class="flex items-center p-5 gap-5 unread">
+        <img src="/assets/images/avatar-jacob-thompson.webp" alt="" class="w-20 h-20">
+        <span class="flex flex-col">
+          <div class="flex items-center gap-3 text-2xl text-Grayishblue max-sm:block">
+            <span class="text-Verydarkblue font-bold whitespace-nowrap">Jacob Thompson</span>
+            has joined your group
+            <strong class="text-pBlue">Chess Club</strong>
+            <div class="w-4 h-4 bg-pRed rounded-full pop">&nbsp;</div>
+          </div>
+          <div class="text-2xl">
+            <p class="text-grayishBlue3">1 day ago</p>
+          </div>
+        </span>
+      </div>
+
+      <div class="flex p-5 gap-5">
+        <img src="/assets/images/avatar-rizky-hasanuddin.webp" alt="" class="w-20 h-20">
+        <span class="flex gap-1 flex-col">
+          <div class="flex items-center gap-3 text-2xl text-Grayishblue max-sm:block">
+            <span class="text-Verydarkblue font-bold whitespace-nowrap">Rizky Hasanuddin</span>
+            sent you a private message
+          </div>
+          <div class="text-2xl">
+            <p class="text-grayishBlue3">5 days ago</p>
+          </div>
+       
+          <small class="text-2xl border p-2">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game
+          </small>
+        </span>   
+      </div>
+
+      <div class="flex justify-between">
+        <span class="flex p-5 gap-5">
+          <img src="/assets/images/avatar-kimberly-smith.webp" alt="" class="w-20 h-20">
+          <span class="flex flex-col">
+            <div class="flex items-center gap-3 text-2xl text-Grayishblue max-sm:block">
+              <span class="text-Verydarkblue font-bold whitespace-nowrap">Kimberly Smith</span>
+              commented on your picture
+            </div>
+            <div class="text-2xl">
+              <p class="text-grayishBlue3">1 week ago</p>
+            </div>
+          </span>
+        </span>
+      <img src="/assets/images/image-chess.webp" alt="" class="w-20 h-20">
+      </div>
+
+      <div class="flex p-5 gap-5">
+        <img src="/assets/images/avatar-nathan-peterson.webp" alt="" class="w-20 h-20">
+        <span class="flex flex-col">
+          <div class="flex items-center gap-3 text-2xl text-Grayishblue max-sm:block">
+            <span class="text-Verydarkblue font-bold whitespace-nowrap">Nathan Peterson</span>
+            reacted to your recent post
+            <strong class="text-Darkgrayishblue">5 end-game strategies to increase your win rate</strong>
+          </div>
+          <div class="text-2xl">
+            <p class="text-grayishBlue3">2 weeks ago</p>
+          </div>
+        </span>
+      </div>
+      
+      <div  class="flex p-5 gap-5">
+        <img src="/assets/images/avatar-anna-kim.webp" alt="" class="w-20 h-20">
+        <span class="flex flex-col">
+          <div  class="flex items-center gap-3 text-2xl text-Grayishblue max-sm:block">
+            <span class="text-Verydarkblue font-bold whitespace-nowrap">Anna Kim</span>
+            left the group
+        <strong class="text-pBlue">Chess Club</strong>
+          </div>
+          <div class="text-2xl text-grayishBlue3">
+            <p>2 weeks ago</p>
+          </div>
+        </span>
+      </div>
+
+    </section>
+  </main>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
